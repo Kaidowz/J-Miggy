@@ -11,10 +11,10 @@
 
     <script type="text/babel">
       function Hello(props) {
-        return <h1>Hello {props.name}</h1>;
+        return <h1>Hello {props.name} {props.age}</h1>;
       }
       
-      ReactDOM.render(<Hello name="Jose Miguel"/>, document.getElementById('mydiv'))
+      ReactDOM.render(<Hello name="Jose Miguel" age="22"/>, document.getElementById('mydiv'))
     </script>
 
   </body>
